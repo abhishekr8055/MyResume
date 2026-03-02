@@ -309,9 +309,10 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #000;
+    background: #fff;
     padding: 20px 10px;
     z-index: 100;
+    border-top: 2px solid #ddd;
   }
 
   .nav-links {
@@ -322,28 +323,28 @@
   }
 
   .nav-links a {
-    color: #fff;
+    color: #000;
     text-align: center;
     font-size: 13px;
     padding: 8px 12px;
   }
 
   .nav-links a:hover {
-    background: #fff;
-    color: #000;
+    background: #000;
+    color: #fff;
   }
 
   .contact-link {
-    color: #000;
-    background: #fff;
+    color: #fff;
+    background: #000;
     font-size: 13px;
     padding: 10px 20px;
-    border: 2px solid #fff;
+    border: 2px solid #000;
   }
 
   .contact-link:hover {
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
   }
 
   .hero {
