@@ -26,7 +26,6 @@ function Skills() {
   return (
     <div className="skills-page">
       <nav className="navbar">
-        <div className="logo" onClick={() => navigate('/')}>it's me</div>
         <Link to="/contact_me" className="contact-link">Let's Talk</Link>
       </nav>
       

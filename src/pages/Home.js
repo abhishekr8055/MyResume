@@ -5,7 +5,6 @@ function Home() {
   return (
     <div className="home">
       <nav className="navbar">
-        <div className="logo">it's me</div>
         <div className="nav-links">
           <Link to="/skills">Skills</Link>
           <Link to="/projects">Projects</Link>
