@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import './Projects.css';
 
 function Projects() {
@@ -6,7 +6,10 @@ function Projects() {
 
   return (
     <div className="projects-page">
-      <button className="back-btn" onClick={() => navigate('/')}>← Back</button>
+      <nav className="navbar">
+        <div className="logo" onClick={() => navigate('/')}>it's me</div>
+        <Link to="/contact_me" className="contact-link">Let's Talk</Link>
+      </nav>
       
       <section className="projects-content">
         <h1>My Projects</h1>

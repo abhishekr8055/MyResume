@@ -1,12 +1,64 @@
 .about-page {
   min-height: 100vh;
   background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
-  padding: 80px 20px 40px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  background: transparent;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.contact-link:hover {
+  background: #fff;
+  color: #000;
+}
+
+.icon-link {
+  color: #fff;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.icon-link:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
 }
 
 .about-content {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px 20px 40px;
 }
 
 .about-header h1 {

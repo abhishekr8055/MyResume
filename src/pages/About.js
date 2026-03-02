@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import './About.css';
 
 function About() {
@@ -6,7 +6,10 @@ function About() {
 
   return (
     <div className="about-page">
-      <button className="back-btn" onClick={() => navigate('/')}>← Back</button>
+      <nav className="navbar">
+        <div className="logo" onClick={() => navigate('/')}>it's me</div>
+        <Link to="/contact_me" className="contact-link">Let's Talk</Link>
+      </nav>
       
       <section className="about-content">
         <div className="about-header">
