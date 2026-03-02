@@ -1,0 +1,197 @@
+.about-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+  padding: 80px 20px 40px;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-header h1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: #00d4ff;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.about-intro {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  padding: 60px;
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+
+.intro-text {
+  font-size: 24px;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.about-intro p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.capabilities-section h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #00d4ff;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.capabilities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.capability-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.capability-card:hover {
+  transform: translateY(-10px);
+  border-color: #00d4ff;
+  box-shadow: 0 20px 60px rgba(0, 212, 255, 0.3);
+}
+
+.capability-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.capability-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.capability-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ccc;
+  margin: 0;
+}
+
+/* Mobile - iPhone/Android (320px - 480px) */
+@media (max-width: 480px) {
+  .about-page {
+    padding: 60px 15px 30px;
+  }
+
+  .about-header h1 {
+    font-size: 36px;
+  }
+
+  .about-intro {
+    padding: 25px 20px;
+  }
+
+  .intro-text {
+    font-size: 18px;
+  }
+
+  .about-intro p {
+    font-size: 16px;
+  }
+
+  .capabilities-section h2 {
+    font-size: 32px;
+  }
+
+  .capabilities-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .capability-card {
+    padding: 30px 20px;
+  }
+
+  .capability-icon {
+    font-size: 36px;
+  }
+
+  .capability-card h3 {
+    font-size: 20px;
+  }
+}
+
+/* Tablet - Portrait (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .about-page {
+    padding: 70px 25px 40px;
+  }
+
+  .about-header h1 {
+    font-size: 48px;
+  }
+
+  .about-intro {
+    padding: 40px 30px;
+  }
+
+  .intro-text {
+    font-size: 20px;
+  }
+
+  .capabilities-section h2 {
+    font-size: 40px;
+  }
+
+  .capabilities-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .capability-card {
+    padding: 40px 30px;
+  }
+}
+
+/* Tablet - Landscape (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .about-page {
+    padding: 80px 40px 40px;
+  }
+
+  .about-header h1 {
+    font-size: 56px;
+  }
+
+  .about-intro {
+    padding: 50px 40px;
+  }
+
+  .intro-text {
+    font-size: 22px;
+  }
+
+  .capabilities-section h2 {
+    font-size: 44px;
+  }
+
+  .capabilities-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .capability-card {
+    padding: 45px 35px;
+  }
+}
